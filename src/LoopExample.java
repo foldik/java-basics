@@ -22,7 +22,7 @@ public class LoopExample {
         do {
             System.out.println(
                     "The condition below is not true but because do while" +
-                    "investigates it second this command will be executed at first.");
+                    " investigates it second this command will be executed at first.");
         } while (count < maxNumber);
 
         /*

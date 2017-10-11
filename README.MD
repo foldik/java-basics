@@ -109,6 +109,10 @@ public class Operators {
 
 ```
 
+Eredmény:
+
+![operators.gif](gifs/operators.gif)
+
 ## Feltételek
 
 Sokszor előfordul, hogy valamilyen feltételtől függöen mást és mást szeretnénk hogy a programunk csináljon. Ebben a részben láthatsz néhány példát az __if__/__else if__/__else__ nyelvi elemek használatára, amivel ezt elérhetjük.
@@ -147,6 +151,8 @@ public class ConditionsExample {
 }
 ```
 
+![conditions.gif](gifs/conditions.gif)
+
 ## Ciklusok
 
 Sokszor előfordul, hogy valamit többször is meg kell csinálnunk. A lényeg itt hogy többször ugyanazt, vagy egy nagyon hasonló dolgot kell elvégeznünk. A programozásban ezt ciklusokkal érhetjük el vagy rekurzívan (erről majd később).
@@ -176,7 +182,7 @@ public class LoopExample {
         do {
             System.out.println(
                     "The condition below is not true but because do while" +
-                    "investigates it second this command will be executed at first.");
+                    " investigates it second this command will be executed at first.");
         } while (count < maxNumber);
 
         /*
