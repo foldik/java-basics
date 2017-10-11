@@ -41,6 +41,9 @@ public class PrimitiveTypes {
     }
 }
 ```
+Eredmény:
+
+![primitive-types.gif](gifs/primitive-types.gif)
 
 ## Operátorok
 
