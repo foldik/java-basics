@@ -24,5 +24,17 @@ public class LoopExample {
                     "The condition below is not true but because do while" +
                     "investigates it second this command will be executed at first.");
         } while (count < maxNumber);
+
+        /*
+         This will be a real beauty :)
+        */
+        for (int i = 0; i < 7; i++) {
+            for (int j = 0; j < 7; j++) {
+                System.out.print("|" + (Math.random() < 0.5692 ? " " : "O"));
+            }
+            System.out.print("|");
+            System.out.println();
+        }
+
     }
 }
