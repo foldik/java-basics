@@ -199,3 +199,4 @@ public class LoopExample {
     }
 }
 ```
+![loops-example.gif](gifs/loops-example.gif)
