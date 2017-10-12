@@ -203,7 +203,7 @@ public class LoopExample {
 
 ## Tömbök
 
-A tömbökben homogén adatok sokaságát tudjuk tárolni, például egész számokat, karakter láncot (szöveget), boolean értékeket. A tömböt amikor létrehozzuk meg kell adnunk, hogy mennyi elemet szeretnénk beletenni, ez lesz a mérete, később sajnos ezt már nem tudjuk változtatni. A tömb első elemét a "0" indexszel érhetjük el.
+A tömbökben homogén adatok sokaságát tudjuk tárolni, például egész számokat, karakter láncot (szöveget), boolean értékeket. A tömböt amikor létrehozzuk meg kell adnunk, hogy mennyi elemet szeretnénk beletenni (vagy magát az elemeket adjuk meg), ez lesz a mérete, később sajnos ezt már nem tudjuk változtatni. A tömb első elemét a "0" indexszel érhetjük el.
 
 ```java
 public class ArrayExample {
@@ -256,3 +256,35 @@ public class ArrayExample {
 ```
 
 ![array-example.gif](gifs/array-example.gif)
+
+## Maximum kereső
+
+Az alábbi kód megtalálja a legnagyobb számot egy tömbben.
+
+```java
+public class MaxFinderExample {
+
+    public static void main(String[] args) {
+        double[] numbers = {22.12312, 2123.2131, 32412.3243, 21.231, 3221.321, -3243.23423 + 3453432.3243, Math.random() * 66565656565.231};
+
+        double max = numbers[0];
+
+        for (int i = 1; i < numbers.length; i++) {
+           if (numbers[i] > max) {
+               max = numbers[i];
+           }
+        }
+
+        System.out.print("MAX: " + max);
+    }
+}
+```
+
+![max-finder-example.gif](gifs/max-finder-example.gif)
+
+# Feladatok 1
+
+Néhány egyszerű kis feladat.
+
+* Minimum kereső?
+* 2-vel osztható számok egy tömbben?
